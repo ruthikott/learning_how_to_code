@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="eng-us" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial scale=1">
+        <meta name="description" content="sample of an online form">
+        <title>Ruth's online form</title>
+        <link rel="stylesheet" href="box_styles.css">
+    </head>
+<body>
+    <h3>Signup to our Online class</h3>
+    <main>
+        <form action="learning html.html" method="get"> <!--get should not be used for a real website, form action should link to another webpage-->
+            <label for="name">Name</label>
+            <input name="name" id= "name" type="text"> <!--to allow only letters in this field-->
+
+          <label for="email">Email</label>
+            <input name="email" id="email" type="email" required 
+            placeholder="me@example.com"> <!--to allow only email format in this field, also to make this a required field and give a suggestion to the email form-->
+
+            <label for="password">Password</label>
+            <input name="password" id= "password" type="password">
+
+            <label for="search">Search</label>
+            <input name="search" id= "search" type="search" placeholder="&#123456">
+<pre>
+
+
+
+</pre>
+            <p><label for="phone no">Phone No</label>
+            <input name="phone no" id= "phone no" type="tel">
+
+            <label for="textarea">Text Area</label>
+            <textarea id="textarea" name="textarea"
+            cols="15" rows="5"></textarea>
+
+            <label for="color">Color</label>
+            <input name="color" id= "color" type="color">
+
+            <label for="file">File</label>
+            <input name="file" id= "file" type="file"
+            accept="image/*" multiple></p>
+
+            <p><label for="date">Date</label>
+            <input name="date" id= "date" type="date">
+
+            <label for="checkbox">Checkbox</label>
+            <input name="simplecheckbox" value= "The checkbox is checked" type="checkbox">
+            <label for="selectlist">Choose One</label>
+            <select name="selectlist" id= "selectlist" type="tel">
+                <option>First choice</option>
+                <option>Second choice</option>
+                <option>Third choice</option>
+            </select>
+
+            <fieldset>
+                <legend>Checkboxes in a fieldset</legend>
+                <label for="thischeck">This</label>
+                <input id= "thischeck" name="checkboxlist"type="checkbox" value="This"checked>
+                <label for="Or check">And/Or</label>
+                <input id="or check" name="checkboxlist" type="checkbox" value="And Or">
+                <label for="That check">That</label>
+                <input id= "thatcheck" name="checkboxlist" type="checkbox" value="That">
+            </fieldset>
+
+            <fieldset>
+                <legend>Radiobuttons in a fieldset</legend>
+                <label for="thisradio">This</label>
+                <input id= "thisradio" name="Radiobuttons"type="radio" value="This"checked>
+                <label for="Or radio">Or</label>
+                <input id="or radio" name="Radiobuttons" type="radio" value="Or">
+                <label for="That check">That</label>
+                <input id= "thatcheck" name="checkboxlist" type="checkbox" value="That">
+            </fieldset>
+      
+            <div><button type="submit">Sign Up</button></div></p>
+
+        </form>
+    <script>
+        var red= true;
+        var blue= false;
+        var  myNum = 4;
+        var otherNum = 6;
+        if (myNum===otherNum) {
+            console.log("statement is true");
+        }
+        else {
+            console.log("statement is false");
+        }
+    </script>
+    </html>

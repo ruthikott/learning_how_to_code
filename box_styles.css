@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(165, 42, 42, 0.46);
+
+}
+h3{
+    text-align: center;
+}
+form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    border: 2px;
+    border-radius: 5px;
+    text-align: left;
+}
+p{
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+h3{
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+div {
+    color: #FFF;
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    width: 200px;
+    box-sizing: border-box; /*best practice in modern web dev*/
+  }
